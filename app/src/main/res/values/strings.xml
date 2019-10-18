@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rate Brands</string>
+    <string name="bmw">BMW Vision Next 100 \n\n This car incorporates something called Alive Geometry
+        which allows the car to turn in different directions.</string>
+    <string name="audi">
+        Audi R8 V10 Plus \n\n
+        Sharing roughly 50% of the same parts as the R8 GT3 LMS race car, the Audi R8 Coupe is bred through the lens of motorsport.
+        The 562-hp or 602-hp V10 performance engine epitomizes the mid-engine drivetrain concept, providing ideal vehicle balance through its center of gravity and dynamic weight transfer characteristics.
+    </string>
+
+    <string name="rangerover">
+        Land Rover Range Rover \n\n
+        Currently the Land Rover Range Rover has a score of 7.6 out of 10 which is based on our evaluation of 38 pieces of research and data elements using various sources.
+    </string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#102A49"
+    android:gravity="left"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_directions_car_black_24dp"
+                android:textSize="30dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#C9C0C0"
+                    android:text="Car"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#6D84BE"
+                    android:text=" Review"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/signUpID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:background="@drawable/customize_login_signup_background"
+                android:textColor="#000000"
+                android:text="sign up"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#C9C0C0"
+                android:text="Already  have  an  account  ?"
+            />
+
+            <EditText
+                android:id="@+id/loginusernameID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:background="#6F36B99A"
+                android:inputType="text"
+                android:hint=" Username"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/ic_people_black_24dp"
+            />
+
+            <EditText
+                android:id="@+id/loginpassID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:background="#6F36B99A"
+                android:inputType="textPassword"
+                android:hint=" Password"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+            />
+
+            <Button
+                android:id="@+id/forgotPassID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/customize_forgot_button"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#C9C0C0"
+                android:textAllCaps="false"
+                android:text="Forgot  password ?"
+                />
+
+            <Button
+                android:id="@+id/loginID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customize_login_signup_background"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="login"
+            />
+
+        <!--    <WebView-->
+        <!--        android:id="@+id/wb"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:background="#E73636"-->
+        <!--        android:layout_marginTop="100dp"-->
+        <!--        android:layout_marginLeft="100dp"-->
+        <!--        android:layout_marginRight="100dp"-->
+        <!--        android:padding="20dp"-->
+        <!--        />-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
